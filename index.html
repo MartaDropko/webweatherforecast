@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebWeather</title>
+    <link type="text/css" rel="stylesheet" href="css/main.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+</head>
+<body>
+    
+<div id="menu" class="mainMenu">
+    <div class="menuBody">
+            <nav><ul id="navigation">
+                <li><a href="index.html" title="Home">Home</a> </li>
+                <li><a href="7days.html" title="Forecast 7 days">7 Days</a> </li>
+                <li><a href="contactus.html" title="Contuct us">Contact us</a></li>
+                <li> </li>
+                 <form id="locationForm" method="get">
+                     <input type="text" id="locationF" list="cities" name="locationC" placeholder="Enter location" autofocus>
+                     <input type="submit" value="Search!" id="go_button">
+                     <button onclick="currentPosition()" id="locBut">By location</button>
+                 </form>
+             </ul></nav>
+             <header>
+                 <h1 id="title"><b>WebWeather</b></h1>
+             </header>
+             
+             <div id="locationPicker">
+                
+             </div>
+     </div>
+ </div>
+ <div id="page" class="page">
+
+     <section id="content">
+         <div id="locTitle"><p><span id="cityTitle"></span></p></div>
+
+         <div id="today">
+             <div id="dateStatus"> Today, <span id="todayDate"></span></div>
+             <div id="status">
+                 <div id="todayPic"></div>
+                 <div id="todayTemp"></div>
+                 <div id="otherDetails">
+                     <table>
+                         <tr>
+                             <th>Conditions:</th>
+                             <td id="todayCond"></td>
+                         </tr>
+                         <tr>
+                             <th>Min.temp.:</th>
+                             <td id="todayMin"></td>
+                         </tr>
+                         <tr>
+                             <th>Max.temp.:</th>
+                             <td id="todayMax"></td>
+                         </tr>
+                         <tr>
+                             <th>Precipitation:</th>
+                             <td id="todayPrecip"></td>
+                         </tr>
+                         <tr>
+                             <th>Humidity:</th>
+                             <td id="todayHumidity"></td>
+                         </tr>
+                         <tr>
+                             <th>Pressure:</th>
+                             <td id="todayPressure"></td>
+                         </tr>
+                         <tr>
+                             <th>Wind:</th>
+                             <td id="todayWind"></td>
+                         </tr>
+                     </table>
+                 </div>
+             </div>
+
+         </div>
+         
+
+     </section>
+ </div>
+         <footer>
+             <div id="mainPageBot" class="allFooters">
+                 <p>&copy;WebWeather by Marta Dropko,2015</p>
+             </div>
+         </footer>
+ <script src="js/defaultPos.js"></script>
+ <script src="js/location.js"></script>
+ <script src="js/desired.js"></script> 
+
+ </body>
+ </html>

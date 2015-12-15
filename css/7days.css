@@ -1,0 +1,45 @@
+table{
+    width: 800px;
+    position:relative;
+    margin:10px auto;
+    padding: 0;
+    text-align: center;
+    border-spacing: 5px 5px;
+}
+
+caption{
+    font-size: 5em;
+}
+
+#longTable{
+    position: relative;
+    top:-20px;
+    background-color: inherit;
+}
+#tableHeader {
+    font-size: 20px;
+    color:black;
+    background-color: #E7E8EA;
+}
+
+
+th,td{
+    margin: 5px;
+    border: 1px solid white;
+}
+
+.icons img{
+    width:73px;
+    height:54px;
+}
+
+.sevenD{
+    background-color:#04032F ;
+    color:white;
+    font-size: 20px;
+}
+
+.sevenOth{
+    background-color: #04032F;
+    color: white;
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebWeather</title>
+    <link type="text/css" rel="stylesheet" href="../css/main.css">
+    <link type="text/css" rel="stylesheet" href="css/7days.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+<div id="menu" class="mainMenu">
+    <div class="menuBody">
+            <nav><ul id="navigation">
+                <li><a href="index.html" title="Home">Home</a> </li>
+                <li><a href="7days.html" title="Forecast 7 days">7 Days</a> </li>
+                <li><a href="contactus.html" title="Contuct us">Contact us</a></li>
+                <li> </li>
+                 <form id="locationForm" method="get">
+                     <input type="text" id="locationF" list="cities" name="locationC" placeholder="Enter location" autofocus>
+                     <input type="submit" value="Search!" id="go_button">
+                     <button onclick="currentPosition()" id="locBut">By location</button>
+                 </form>
+             </ul></nav>
+             <header>
+                 <h1 id="title"><b>WebWeather</b></h1>
+             </header>
+             
+             <div id="locationPicker">
+                
+             </div>
+     </div>
+ </div>
+<div id="page" class="page">
+    <section id="content">
+        <div id="locTitle"><p><span id="cityTitle"></span></p></div>
+        <div id="longTable">
+            <table id="sevenDays"  ></table>
+        </div>
+
+    </section>
+</div>
+ <footer>
+    <div id="mainPageBot" class="allFooters">
+        <p>&copy;WebWeather by Marta Dropko,2015</p>
+    </div>
+</footer>
+
+<script src="js/7days.js"></script>
+
+</body>
+</html>
