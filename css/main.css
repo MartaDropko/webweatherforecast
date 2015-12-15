@@ -4,7 +4,7 @@ body{
     background-size: 100% auto;
 }
 .page {
-    margin:5px  400px 100px ;
+    margin:5px  300px 10px ;
     padding-top:0px;
     position:relative;
     width:300px;
@@ -69,8 +69,8 @@ li a:hover:not(.active) {
 }
 #locationF {
     width: 200px;
-    height: 20px;
-    margin-left: 750px;
+    height: 19px;
+    margin-left: 650px;
     margin-right: 0;
     outline: none;
     -webkit-appearance: none;
@@ -93,7 +93,7 @@ li a:hover:not(.active) {
 #go_button {
     float: left;
     margin-top: 10px;
-    height: 44px;
+    height: 45px;
     border-bottom-right-radius: 10px;
     border-top-right-radius:10px;
     border: none;
@@ -117,6 +117,16 @@ form{
 
 
 
+/*Content area
+
+#mainPage, a#mainPage {
+    width: inherit;
+    padding: 0;
+    margin:0;
+}
+*/
+/*INFORMATION AREA*/
+
 #locTitle, #locTitle  p {
     padding: 0;
     margin:0;
@@ -139,6 +149,8 @@ form{
     left:10px;
 }
 
+
+/*REMASTERED*/
 #dateStatus{
     font-size: 36px;
     padding-left: 10px;
@@ -201,3 +213,4 @@ footer p{
     color:white;
     padding: 5px 5px 5px 10px;
 }
+
