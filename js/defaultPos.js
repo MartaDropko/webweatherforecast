@@ -112,7 +112,6 @@ function dateSmall(dUnix){
     return monthArary[month]+' '+day;
 }
 
-
 /* Function that helps to calculate wind direction */
 function windDirection(degree){
     var val=parseInt(degree/22.5 +0.5);//adding 0,5 for proper truncation

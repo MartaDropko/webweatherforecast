@@ -6,10 +6,10 @@ body{
 -moz-background-size: cover;
 }
 .page {
-    margin:5px  300px 10px ;
+    margin:5px  600px 10px ;
     padding-top:0px;
     position:relative;
-    width:800px;
+    width:520px;
 
 }
 
@@ -46,7 +46,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li a:hover {
     background-color: #434C62;
 }
 
@@ -119,6 +119,14 @@ form{
 
 
 
+/*Content area
+#mainPage, a#mainPage {
+    width: inherit;
+    padding: 0;
+    margin:0;
+}
+*/
+/*INFORMATION AREA*/
 
 #locTitle, #locTitle  p {
     padding: 0;
